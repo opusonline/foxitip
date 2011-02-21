@@ -1,0 +1,37 @@
+/*!
+ * name: foxitip
+ * author: Stefan Benicke - www.opusonline.at
+ * version: 0.3
+ * last update: 19.02.2011
+ * category: jQuery plugin
+ * license: GNU GPLv3
+  <div id="foxitip" class="foxitip">
+    <div id="foxitip_title"></div>
+    <div id="foxitip_url"></div>
+  </div>
+ */
+#foxitip {
+  position: absolute;
+	top: 0;
+	left: 0;
+  z-index: 1000;
+	pointer-events: none;
+}
+.foxitip {
+  padding: 8px;
+	font: small tahoma, arial, sans-serif;
+  color: #fff;
+  background: #000;
+  background: rgba(0,0,0,0.9);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	border-radius: 10px;
+}
+.foxitip #foxitip_title {
+  font-weight: bold;
+}
+.foxitip #foxitip_url {
+  font-size: 85%;
+}
